@@ -2,6 +2,7 @@
 title: Validator Monad
 long_title: Angular Reactive Forms Validator Monad For All
 layout: blog
+parent: Blog
 categories:
     - angular
     - javascript 

@@ -2,6 +2,7 @@
 title: Github Labels
 long_title: Bulk Editing & Creating Github Labels
 layout: blog
+parent: Blog
 categories:
     - github
     - javascript

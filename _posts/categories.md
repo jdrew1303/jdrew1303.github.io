@@ -2,7 +2,6 @@
 layout: page
 permalink: /categories/
 title: Categories
-parent: Blog
 nav_order: 2
 ---
 

@@ -1,8 +1,7 @@
 ---
-title: Custom Joi Validators
+title: 📚 Custom Joi Validators
 long_title: Custom Joi Validators
 layout: blog
-parent: Blog
 categories: 
     - joi 
     - javascript

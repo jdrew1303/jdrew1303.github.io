@@ -1,8 +1,7 @@
 ---
-title: Recursive Function
+title: 📚 Recursive Function
 long_title: Playing With Recursion (Javascript Array Functions)
 layout: blog
-parent: Blog
 categories: 
     - javascript
     - recursion 

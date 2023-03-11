@@ -1,8 +1,7 @@
 ---
-title: Easy Roles & Permissions
+title: 📚 Easy Roles & Permissions
 long_title: Easy Roles & Permissions in Angularjs Using Cucumber Tag Expressions
 layout: blog
-parent: Blog
 categories: 
     - angular 
     - javascript 

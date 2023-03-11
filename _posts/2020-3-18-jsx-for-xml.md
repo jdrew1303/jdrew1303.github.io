@@ -1,8 +1,7 @@
 ---
-title: XML Using JSX
+title: 📚 XML Using JSX
 long_title: Better XML in JavaScript using JSX
 layout: blog
-parent: Blog
 categories: 
     - jsx
     - xml

@@ -1,8 +1,7 @@
 ---
-title: HK2 Dependency Injection
+title: 📚 HK2 Dependency Injection
 long_title: Dropwizard Dependency Injection 💉
 layout: blog
-parent: Blog
 categories: 
     - dropwizard 
     - java 

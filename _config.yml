@@ -1,10 +1,17 @@
 title: Drew Labs 🧪
 description: A blog about random ramblings that I have. 🤔
-theme: just-the-docs
 
+theme: just-the-docs
 color_scheme: drewlabs
         
 url: https://jdrew1303.github.io
+
+permalink: /:categories/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 include:
  - _posts

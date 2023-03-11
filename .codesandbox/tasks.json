@@ -1,4 +1,4 @@
-{
+📚 📚 📚 📚📚📚📚asdasd{
   // These tasks will run in order when initializing your CodeSandbox project.
   "setupTasks": [
     {
@@ -11,7 +11,7 @@
   "tasks": {
     "jekyll serve": {
       "name": "jekyll serve",
-      "command": "bundle install && bundle exec jekyll serve",
+      "command": "bundle install && bundle exec jekyll serve --incremental",
       "runAtStart": true
     }
   }

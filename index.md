@@ -1,7 +1,19 @@
 ---
 title: Home
 layout: home
+nav_order: 1
 ---
+
+## Intro
+
+## Blog Post Categories
+
+{% assign categories = site.categories | nested_sort: "size" %}
+{% for category in categories %}
+{% capture category_name %}{{ category | first }}{% endcapture %}<a class="label label-yellow" href="{{site.baseurl}}/{{category_name | slugify}}">{{category_name}} {{categories[category_name].size}}</a>{% endfor %}
+
+
+## Other Stuff
 
 This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
 

@@ -1,0 +1,43 @@
+// solarised colours
+$base03: #002b36;
+$base02: #073642;
+$base01: #586e75;
+$base00: #657b83;
+$base0: #839496;
+$base1: #93a1a1;
+$base2: #eee8d5;
+$base3: #fdf6e3;
+$yellow: #b58900;
+$orange: #cb4b16;
+$red: #dc322f;
+$magenta: #d33682;
+$violet: #6c71c4;
+$blue: #268bd2;
+$cyan: #2aa198;
+$green: #859900;
+
+// theme variables
+$body-background-color: $base3;
+$body-heading-color: $base00;
+$body-text-color: $base01;
+$link-color: $blue;
+$nav-child-link-color: $base03;
+$sidebar-color: $base2;
+$base-button-color: $base03;
+$btn-primary-color: $base02;
+$code-background-color: $base3;
+$feedback-color: darken($sidebar-color, 3%);
+$table-background-color: $white;
+$search-background-color: $base3;
+$search-result-preview-color: $base00;
+
+// original theme we want to override
+@import "./color_schemes/light";
+@import "./solarized";
+
+// components we want to override
+.search-result-highlight {
+  font-weight: bold;
+  color: $white;
+  background-color: $yellow;
+}

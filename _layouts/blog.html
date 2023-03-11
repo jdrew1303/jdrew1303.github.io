@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<h1>{{page.long_title}}</h1>
+
+{% for category in page.categories %}
+    <p class="label label-yellow">{{category}}</p>
+{% endfor %}
+
+{{ content }}
